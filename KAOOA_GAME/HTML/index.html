@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+<body style="background-color: rgb(240, 240, 203);">
+  <!-- line 1 '-' -->
+  <div id="ad">
+  </div>
+  <!-- <div class="move3d"> -->
+  <div class="container" style="margin: auto; max-width: 600px;" data-tilt>
+<svg id="mysvg" height="895" width="1200" y="1190" x="235">
+
+  <text x="450" y="100" style="font: italic 40px serif;">KAOOA GAME</text>
+
+  <line x1="350" y1="380" x2="850" y2="380" style="stroke:rgb(255,0,0);stroke-width:3" />
+  <!-- Sorry, your browser does not support inline SVG. -->
+<!-- line 2 '/' -->
+  <line x1="850" y1="380" x2="350" y2="730" style="stroke:rgb(255,0,0);stroke-width:3" />
+<!-- line 3 '\' -->
+  <line x1="350" y1="380" x2="850" y2="730" style="stroke:rgb(255,0,0);stroke-width:3" />
+<!-- line 4 '\' to top -->
+  <line x1="850" y1="730" x2="600" y2="200" style="stroke:rgb(255,0,0);stroke-width:3" />
+<!-- line 5 '/' to top -->
+  <line x1="350" y1="730" x2="600" y2="200" style="stroke:rgb(255,0,0);stroke-width:3" />
+
+  <!-- circle -->
+
+  <!-- <circle cx="600" cy="120" r="25" stroke="black" stroke-width="3" fill="red" fill-opacity="0.0" /> -->
+  <!-- <line x1="600" y1="120" x2="600" y2="120" stroke="black" class="circle" /> -->
+
+  <circle id="1" onclick="changecolor('1');" onmouseover="mouseOver('1');" onmouseout="mouseOut('1');" cx="600" cy="200" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0"/>
+
+  <circle id="2" onclick="changecolor('2');" onmouseover="mouseOver('2');" onmouseout="mouseOut('2');" cx="350" cy="380" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+  <circle id="3" onclick="changecolor('3');" onmouseover="mouseOver('3');" onmouseout="mouseOut('3');" cx="515" cy="380" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+  <circle id="4" onclick="changecolor('4');" onmouseover="mouseOver('4');" onmouseout="mouseOut('4');" cx="686" cy="380" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+  <circle id="5" onclick="changecolor('5');" onmouseover="mouseOver('5');" onmouseout="mouseOut('5');" cx="850" cy="380" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+  <circle id="6" onclick="changecolor('6');" onmouseover="mouseOver('6');" onmouseout="mouseOut('6');" cx="473" cy="470" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+  <circle id="7" onclick="changecolor('7');" onmouseover="mouseOver('7');" onmouseout="mouseOut('7');" cx="727" cy="470" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+  <circle id="8" onclick="changecolor('8');" onmouseover="mouseOver('8');" onmouseout="mouseOut('8');" cx="600" cy="560" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+  <circle id="9" onclick="changecolor('9');" onmouseover="mouseOver('9');" onmouseout="mouseOut('9');" cx="350" cy="730" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+  <circle id="10" onclick="changecolor('10');" onmouseover="mouseOver('10');" onmouseout="mouseOut('10');" cx="850" cy="730" r="25" stroke="black" stroke-width="3" fill="rgb(0,255,0)" fill-opacity="0.0" />
+</svg>
+<!-- </div>​ -->
+</div>​
+<script src="../JS/vanilla-tilt.js"></script>
+<script src="../JS/index.js"></script>
+</body>
+</html>
